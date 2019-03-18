@@ -1,0 +1,211 @@
+
+.ecsc-button{
+    line-height: 22px;
+    padding: 0px 16px;
+    background: #F7F7F7;
+    border: 1px solid #E9E9E9;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #34495E;
+    display: inline-block;
+    cursor: pointer;
+}
+.ecsc-button-l,.ecsc-button-m,.ecsc-button-s{
+    background: #0C9AFF;
+    color: #fff;
+}
+.ecsc-button-l{
+    line-height: 30px;
+    padding: 0px 19px;
+    font-size: 14px;
+}
+.ecsc-button-l:hover{
+    background: #108EE9;
+}
+.ecsc-button-m:hover,.ecsc-button-s:hover{
+    font-size: 12px;
+    background: #108EE9;
+}
+.ecsc-button-m{
+    line-height: 28px;
+    padding: 0px 14px;
+    font-size: 12px;
+}
+.ecsc-button-s{
+    line-height: 22px;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
+
+
+.ecsc-button-service{
+    background: #FF9001;
+    font-size: 12px;
+    letter-spacing: 0;
+    position: relative;
+    padding: 0px 9px 0px 25px;
+    line-height: 26px;
+    color: #fff;
+}
+.ecsc-button-service::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    left: 11px;
+    top: 8px;
+}
+.ecsc-button-service:hover{
+    background: #FF8401;
+}
+
+
+
+
+.ecsc-button-dropdown{
+    
+
+}
+/* .ecsc-button-dropdown::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 6.4px;
+    background-color: #fff;
+    position: absolute;
+    top: 11px;
+    right: 9px;
+} */
+.ecsc-button-advanced{
+    background: none;
+    border:none;
+}
+.ecsc-button-advanced:hover{
+    color: #108EE9;
+    background: none;
+}
+
+
+
+
+.ecsc-button-cancel{
+    background: #FFFFFF;
+    border: 1px solid #d8e5dc;
+    color: #34495e;
+}
+.ecsc-button-cancel:hover{
+    background: #FFFFFF;
+    border: 1px solid #E8F1F7;
+    color: #243546;
+}
+
+
+
+
+
+
+
+
+.add-btn{
+    background-color: #FF9001;
+}
+.add-btn:hover{
+    background-color: #FF8401;
+}
+.add-btn > i,.map-add > i{
+    font-size: 12px;
+    margin-right: 2px;
+}
+.input-btn > i{
+    font-size: 12px;
+    margin-right: 2px;
+    color: #6C7D8E;
+}
+.ecsc-slider-con {
+    height: 100%;
+    width: 650px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(106,134,179,0.22);
+    z-index: 1000;
+    overflow: hidden;
+}
+.ecsc-table-button{
+    font-size: 12px;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.clearfix {
+    display: block;
+    zoom: 1;
+}
+/*物品分类 助记码输入框 样式 */
+.ag-add-bm .el-form-item__label{
+    margin-left: -16px !important;
+    margin-right: 16px;
+}
+    .selected-opt{
+        position: absolute;
+        width: 100%;
+        background-color: #fff;
+        height: 48px;
+        text-align: left;
+        font-size: 12px;
+        .el-icon-close{
+            font-size: 12px;
+            color: #565757;
+            margin-left: 14px;
+            display: inline-block;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+    }
+    .selected-opt-btn{
+        font-size: 12px;
+        color: #34495E;
+        line-height: 12px;
+        i{
+            color: #C1CED6;
+            margin-right: 0px;
+        }
+    }
+    .selected-opt-num-item{
+        display: inline-block;
+        height: 15px;
+        border-right:1px solid #EDF0F4;
+        padding-right: 10px;
+    }
+    .selected-opt-item{
+        display: inline-block;
+        height: 15px;
+        border-right:1px solid #EDF0F4;
+        padding-right: 10px;
+        margin-left: 10px;
+        &:hover{
+            color:  #0C9AFF;
+            i{
+                 color:  #0C9AFF;
+            }
+        }
+    }
+
+    .isOnlySelect > .ecsc-select-tree-body{
+        width: 222px;
+    }
+    

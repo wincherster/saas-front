@@ -1,0 +1,156 @@
+@font-face {
+  font-family: 'saas';
+  src:  url('./saas.eot?ild2c2');
+  src:  url('./saas.eot?ild2c2#iefix') format('embedded-opentype'),
+    url('./saas.ttf?ild2c2') format('truetype'),
+    url('./saas.woff?ild2c2') format('woff'),
+    url('./saas.svg?ild2c2#saas') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.saas {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'saas' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #929aa1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.saas-aside-HQbackground:before {
+  content: "\e900";
+  /* color: #929aa1; */
+}
+.saas-aside-basicsetting:before {
+  content: "\e901";
+  /* color: #939ca2; */
+}
+.saas-aside-chargeaccount:before {
+  content: "\e902";
+  /* color: #929aa1; */
+}
+.saas-aside-discounts:before {
+  content: "\e903";
+  /* color: #929aa1; */
+}
+.saas-aside-facility:before {
+  content: "\e904";
+  /* color: #929aa1; */
+}
+.saas-aside-menu:before {
+  content: "\e905";
+  /* color: #939ca2; */
+}
+.saas-aside-openshop:before {
+  content: "\e906";
+  color: #9aabb8;
+}
+.saas-aside-takeout:before {
+  content: "\e907";
+  /* color: #98a8b5; */
+}
+.saas-aside-thirdparty:before {
+  content: "\e908";
+  /* color: #9aabb8; */
+}
+.saas-header-admin:before {
+  content: "\e909";
+  /* color: #9aabb8; */
+}
+.saas-header-changepassword:before {
+  content: "\e90a";
+  /* color: #9aabb8; */
+}
+.saas-header-closeall:before {
+  content: "\e90b";
+  /* color: #9aabb8; */
+}
+.saas-header-fullscreen:before {
+  content: "\e90c";
+  /* color: #9aabb8; */
+}
+.saas-header-function:before {
+  content: "\e90d";
+  /* color: #9aabb8; */
+}
+.saas-header-home:before {
+  content: "\e90e";
+  /* color: #9aabb8; */
+}
+.saas-header-inform:before {
+  content: "\e90f";
+  /* color: #939ca2; */
+}
+.saas-header-logout:before {
+  content: "\e910";
+  /* color: #9aabb8; */
+}
+.saas-header-quitfullscreen:before {
+  content: "\e911";
+  /* color: #9aabb8; */
+}
+.saas-header-refresh:before {
+  content: "\e912";
+  /* color: #9aabb8; */
+}
+.saas-header-returnguide:before {
+  content: "\e913";
+  /* color: #9aabb8; */
+}
+.saas-nav-abbrdropdown:before {
+  content: "\e914";
+  /* color: #9aabb8; */
+}
+.saas-nav-closehover:before {
+  content: "\e915";
+}
+.saas-nav-dropdown:before {
+  content: "\e916";
+  /* color: #939ca2; */
+}
+.saas-nav-leftturn:before {
+  content: "\e917";
+  /* color: #9aabb8; */
+}
+.saas-nav-outlink:before {
+  content: "\e918";
+  /* color: #9aabb8; */
+}
+.saas-nav-pullup:before {
+  content: "\e919";
+  /* color: #9aabb8; */
+}
+.saas-nav-rightrturn:before {
+  content: "\e91a";
+  /* color: #9aabb8; */
+}
+.saas-page-menumanage:before {
+  content: "\e91b";
+  /* color: #34495e; */
+}
+.saas-page-openshop:before {
+  content: "\e91c";
+  /* color: #34495e; */
+}
+.saas-page-outlink:before {
+  content: "\e91d";
+  /* color: #9aabb8; */
+}
+.saas-page-titleheader:before {
+  content: "\e91e";
+  /* color: #0c9aff; */
+}
+.saas-android:before {
+  content: "\eac0";
+}
+.saas-arrow-up:before {
+  content: "\ea32";
+}

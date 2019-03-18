@@ -1,0 +1,237 @@
+.nav{
+  .el-menu-vertical-demo{
+    transition: none;
+    * {
+        font-size: 13px;
+    }
+    a{
+      text-decoration: none;
+    }
+    .el-menu-item,.el-submenu__title{
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    /*展开*/
+    &:not(.el-menu--collapse){
+      border: none;
+      background-color: #223f77;
+      width: 160px;
+      .el-submenu{
+        *{
+          color: #fff;
+        }
+        > .el-submenu__title{
+          padding:0;
+          padding-left: 38px!important;
+          padding-right:30px!important;
+          height: 37px;
+          line-height: 37px;
+          &:hover{
+            background: rgba(76,137,255,0.14);
+          }
+          > .el-submenu__icon-arrow{
+            right: 15px;
+            font-size: 12px;
+            margin-top: -5px;
+            &.el-icon-arrow-down{
+              transform: rotateZ(-90deg);
+            }
+          }
+          > .iconfont {
+            font-size: 14px;
+            position: absolute;
+            top: 50%;
+            left: 17px;
+            margin-top: -5px;
+            transition: transform .3s,-webkit-transform .3s;
+          }
+        }
+        > .el-menu{
+          background-color: #1D3362;
+          box-shadow: 2px 0 10px 10px rgba(33, 41, 50, 0.05) inset;
+          > .el-submenu{
+            > .el-submenu__title{
+              padding: 0;
+              padding-left: 44px!important;
+            }
+            > .el-menu{
+              > .el-menu-item{
+                padding: 0;
+                padding-left: 50px!important;
+                border-left: 0px solid #4D8AFD;
+                &:hover{
+                  border-left: 3px solid #4D8AFD;
+                  padding-left: 47px!important;
+                }
+                &.is-active{
+                  border-left: 3px solid #4D8AFD;
+                  padding-left: 47px!important;
+                }
+              }
+            }
+          }
+          > .el-menu-item{
+            padding:0;
+            padding-left: 44px!important;
+            height: 37px;
+            line-height: 37px;
+            min-width: 0;
+            background-color: #1D3362;
+            border-left: 0px solid #4D8AFD;
+            &:hover{
+              outline: 0;
+              background-color: rgba(76,137,255,0.14);
+              border-left: 3px solid #4D8AFD;
+              padding-left: 41px!important;
+            }
+            &.is-active{
+              outline: 0;
+              background-color: rgba(76,137,255,0.14);
+              border-left: 3px solid #4D8AFD;
+              padding-left: 41px!important;
+            }
+          }
+        }
+        &.is-opened{
+          > .el-submenu__title{
+            > .el-submenu__icon-arrow{
+              right: 15px;
+              &.el-icon-arrow-down{
+                transform: rotateZ(0deg)
+              }
+            }
+          }
+        }
+      }
+
+    }
+    /*折叠*/
+    &.el-menu--collapse{
+      border: none;
+      background-color: #223f77;
+      width: 70px;
+      > .el-submenu{
+        *{
+          color: #fff;
+        }
+        > .el-submenu__title{
+          text-align: center;
+          padding: 0!important;
+          width: 70px;
+          height: 77px;
+          > .iconfont{
+            font-size: 16px;
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            margin-left: -8px; 
+            transition: transform .3s,-webkit-transform .3s;
+          }
+          > [slot="title"]{
+            position: absolute;
+            bottom: 25%;
+            left: 0;
+            transition: transform .3s,-webkit-transform .3s;
+            display: inline-block;
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            visibility: visible;
+            display: inline-block;
+            text-align: center;
+          }
+          &:hover {
+            background-color: #1D3362;
+          }
+        }
+        > .el-menu{
+          width: 138px;
+          background-color: #1D3362;
+          margin: 0;
+          top: 0;
+          left: 100%;
+          z-index: 10;
+          border: none;
+          border-radius: 2px;
+          box-shadow: none;
+          // padding: 4px 0px;
+          > .el-submenu{
+            min-width: 138px;
+            > .el-submenu__title{
+              height: 35px;
+              line-height: 35px;
+              padding: 0;
+              padding-left: 18px!important;
+              width: 133px;
+              min-width: 133px;
+              margin-left: 3px;
+              > .el-submenu__icon-arrow{
+                font-size: 12px;
+                margin-top: -6px;
+                right: 16px;
+              }
+              &:hover{
+                background-color: rgba(48,114,255,0.15);
+                border-radius: 2px;
+              }
+            }
+            > .el-menu{
+              width: 138px;
+              background-color: #1D3362;
+              margin: 0;
+              top: 0;
+              left: 100%;
+              z-index: 10;
+              border: none;
+              border-radius: 2px;
+              box-shadow: none;
+              // padding: 4px 0;
+              > .el-menu-item{
+                height: 35px;
+                line-height: 35px;
+                padding: 0;
+                padding-left: 18px;
+                width: 133px;
+                min-width: 133px!important;
+                margin-left:3px;  
+                &:hover{
+                  background-color: rgba(48,114,255,0.15);
+                  border-radius: 2px;
+                }
+                &.is-active{
+                  background-color: rgba(48,114,255,0.15);
+                  border-radius: 2px;
+                }
+              }
+            }
+          }
+          > .el-menu-item{
+            height: 35px;
+            line-height: 35px;
+            padding: 0;
+            padding-left: 18px;
+            width: 133px;
+            min-width: 133px!important;
+            margin-left:3px;
+            &:hover{
+              background-color: rgba(48,114,255,0.15);
+              border-radius: 2px;
+            }
+            &.is-active{
+              background-color: rgba(48,114,255,0.15);
+              border-radius: 2px;
+            }
+          }
+        }
+
+        &.is-opened{
+          > .el-submenu__title{
+            background-color: #1D3362;
+          }
+        }
+      }
+
+    }
+  }
+}

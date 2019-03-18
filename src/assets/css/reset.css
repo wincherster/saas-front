@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: 'PingFangSC-Regular','微软雅黑';
+  font-size: 14px;
+  color: #34495E;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+a:link{
+  text-decoration: none;
+ 
+  font-family: 'PingFangSC-Regular','微软雅黑';
+  font-size: 14px;
+  color:  #0C9AFF;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+a:hover,a:active{
+  text-decoration: underline;
+  color: #108EE9;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'PingFangSC-Regular','微软雅黑';
+  color: #34495E;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 20px;
+}
+h3{
+  font-size: 18px;
+}
+h4{
+  font-size: 16px;
+}
+h5{
+  font-size: 14px;
+}
+h6{
+  font-size: 12px;
+}
+ul,ol,li{
+  list-style: none;
+}
+.clearfix:before,.clearfix:after{ 
+  content:"";
+  display:block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+  clear:both;
+}
+.clearfix{*zoom:1;}
+
+/* 浮动 */
+.fl-right {
+  float: right;
+}
+.fl-left {
+  float: left;
+}
+/* 文本对齐 */
+.text-left {
+  text-align: left;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}

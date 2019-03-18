@@ -1,0 +1,225 @@
+/* 默认按钮 */
+.saasbtn {
+    display: inline-block;
+    padding: 0px 19px;
+    background: #FFFFFF;
+    border: 1px solid #D8E5EC;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #34495E;
+    cursor: pointer;
+
+    white-space: nowrap;
+    text-align: center;
+    -webkit-appearance: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    -webkit-transition: .1s;
+    transition: .1s;
+    font-weight: 500;
+}
+/* -------------按钮大小------------------------------ */
+/* 大中小三级按钮 */
+.saasbtn-lg {
+    padding:0 19px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.saasbtn-sm {
+    padding: 0 13px;
+    font-size: 12px;
+    line-height: 26px;
+}
+.saasbtn-xs {
+    padding:0 9px;
+    font-size: 12px;
+    line-height: 22px;
+}
+/* ----------------按钮颜色------------------------------ */
+/* 次级按钮 */
+.saasbtn-default {
+    background: #FFFFFF;
+    border: 1px solid #D8E5EC;
+}
+.saasbtn-default:hover{
+    background: #F7FCFF;
+    border: 1px solid #D8E5EC;
+}
+/* 确定按钮 */
+.saasbtn-primary {
+    background: #0C9AFF;
+    border: 1px solid #0C9AFF;
+    color: #FFFFFF;
+}
+.saasbtn-primary:hover {
+    background: #108EE9;
+    border: 1px solid #108EE9;
+    color: #FFFFFF;
+}
+/* 成功按钮 */
+.saasbtn-success {
+    background: #78C75E;
+    border: 1px solid #78C75E;
+    color: #FFFFFF;
+}
+.saasbtn-success:hover {
+    background: #70B958;
+    border: 1px solid #70B958;
+    color: #FFFFFF;
+}
+/* 警告按钮 */
+.saasbtn-warn {
+    background: #FFBF00;
+    border: 1px solid #FFBF00;
+    color: #FFFFFF;
+}
+.saasbtn-warn:hover {
+    background: #F7B900;
+    border: 1px solid #F7B900;
+    color: #FFFFFF;
+}
+/* 危险按钮 */
+.saasbtn-danger {
+    background: #FF5673;
+    border: 1px solid #FF5673;
+    color: #FFFFFF;
+}
+.saasbtn-danger:hover {
+    background: #F5536F;
+    border: 1px solid #F5536F;
+    color: #FFFFFF;
+}
+
+/* -------------业务按钮--------------------- */
+/* 新增按钮 添加会员按钮 导入会员按钮  刷新按钮 全屏按钮 自定义表格按钮 会员中心按钮*/
+.saasbtn-service,.saasbtn-membercenter,.saasbtn-newadd {
+    padding: 0 9px 0 29px; 
+    border: 1px solid #D8E5EC;
+    background: #FFFFFF;
+    line-height: 26px;
+    color: #34495E;
+    font-size: 12px;
+    letter-spacing: 0;
+    position: relative;
+}
+/* 会员中心按钮 */
+.saasbtn-membercenter {
+    padding: 0 29px 0 9px;
+}
+/* 新增按钮修改 */
+.saasbtn-newadd {
+    background: #FF9001;
+    border: 1px solid #FF9001;
+    color: #ffffff;
+}
+/* hover样式 */
+.saasbtn-service:hover,.saasbtn-membercenter:hover {
+    background: #0C9AFF;
+    border: 1px solid #0C9AFF;
+    color: #fff;
+}
+.saasbtn-newadd:hover {
+    background: #FF8401;
+    border: 1px solid #FF8401;
+}
+
+/* 按钮里图标的设置 */
+.iconbtn-left {
+    font-size: 14px;
+    line-height: 26px;
+    position: absolute;
+    left: 9px;
+    top: 0px;
+}
+.iconbtn-right {
+    font-size: 14px;
+    line-height: 26px;
+    position: absolute;
+    right: 9px;
+    top: 0px;
+}
+
+
+/* .saasbtn-new, 
+.saasbtn-add,
+.saasbtn-import,
+.saasbtn-table,
+.saasbtn-refresh,
+.saasbtn-fullscreen,
+.saasbtn-center  */
+/* 字体图标待定------------------------------------------------ */
+/* .saasbtn-new::before,
+.saasbtn-add::before,
+.saasbtn-import::before,
+.saasbtn-table::before,
+.saasbtn-refresh::before,
+.saasbtn-fullscreen::before,
+.saasbtn-center::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+    top: 6px;
+} */
+
+
+
+
+
+/* ---------------其他按钮----------------------- */
+/* 下拉菜单按钮 */
+.saasbtn-dropdown {
+    padding: 0 10px 0 32px;
+    background: #0C9AFF;
+    font-size: 12px;
+    color: #fff;
+    line-height: 28px;
+    position: relative;
+}
+.ecsc-btn-dropdown::before{
+    content: "";
+    display: block;
+    width: 10px;
+    height: 6.4px;
+    background-color: #fff;
+    position: absolute;
+    top: 11px;
+    right: 13px;
+}
+
+/* 文字按钮 */
+.saasbtn-text {
+    padding: 0;
+    border: none;
+    background: none;
+    font-size: 12px;
+    color: #0C9AFF;
+}
+.saasbtn-text:hover {
+    color: #108EE9;
+    background: none;
+}
+/* 标签按钮 */
+.saasbtn-tag {
+    padding: 0 9px;
+    border: 1px solid #E9E9E9;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #34495E;
+    line-height: 20px;
+}
+
+
+/* 文本样式 */
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}

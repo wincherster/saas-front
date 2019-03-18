@@ -1,0 +1,54 @@
+.brand{
+    .el-tabs{
+        .el-tabs__header{
+            margin-bottom: 0px;
+            .el-tabs__nav-wrap{
+                margin-bottom: 0px;
+                padding: 0 30px;
+                .el-tabs__nav-prev{
+                    line-height: 36px;
+                    width: 30px;
+                    text-align: center;
+                    box-shadow:  0 0 10px #f5f5f5;
+                    .el-icon-arrow-left{
+                        font-size: 12px;
+                        color: #929aa1;
+                    }
+                }
+                .el-tabs__nav-next{
+                    line-height: 36px;
+                    width: 30px;
+                    text-align: center;
+                    box-shadow:  0 0 10px #f5f5f5;
+                    .el-icon-arrow-right{
+                        font-size: 12px;
+                        color: #929aa1;
+                    }
+                }
+                .el-tabs__nav-scroll{
+                    .el-tabs__nav{
+                        .el-tabs__active-bar{
+                            height: 1px;
+                            background: #4CA6F8;
+                            display: none;
+                        }
+                        .el-tabs__item{
+                            height: 36px;
+                            font-family: PingFangSC-Regular;
+                            font-size: 14px;
+                            line-height: 36px;
+                            padding: 0 15px;
+                            &.is-active,&:hover{
+                                color: #4CA6F8;
+                                border-bottom: 1px solid #4CA6F8;
+                            }
+                        }
+                    }
+                }
+                &::after{
+                    height: 1px;
+                }
+            }
+        }
+    }
+}
